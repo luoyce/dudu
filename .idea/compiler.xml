@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dudu-common" />
+        <module name="dudu-config" />
+        <module name="dudu-core" />
+        <module name="dudu-dao" />
+        <module name="dudu-pojo" />
+        <module name="dudu-service" />
+        <module name="dudu-web" />
+        <module name="dududubborpc" />
+        <module name="dududubboserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dudu" target="1.5" />
+      <module name="dudu-common" target="1.5" />
+      <module name="dudu-config" target="1.5" />
+      <module name="dudu-core" target="1.5" />
+      <module name="dudu-dao" target="1.5" />
+      <module name="dudu-pojo" target="1.5" />
+      <module name="dudu-service" target="1.5" />
+      <module name="dudu-web" target="1.8" />
+      <module name="dududubborpc" target="1.5" />
+      <module name="dududubboserver" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

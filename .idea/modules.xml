@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dudu.iml" filepath="$PROJECT_DIR$/dudu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-common/dudu-common.iml" filepath="$PROJECT_DIR$/dudu-common/dudu-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-config/dudu-config.iml" filepath="$PROJECT_DIR$/dudu-config/dudu-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-core/dudu-core.iml" filepath="$PROJECT_DIR$/dudu-core/dudu-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-dao/dudu-dao.iml" filepath="$PROJECT_DIR$/dudu-dao/dudu-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-pojo/dudu-pojo.iml" filepath="$PROJECT_DIR$/dudu-pojo/dudu-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-service/dudu-service.iml" filepath="$PROJECT_DIR$/dudu-service/dudu-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-web/dudu-web.iml" filepath="$PROJECT_DIR$/dudu-web/dudu-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-dubbo-rpc/dududubborpc.iml" filepath="$PROJECT_DIR$/dudu-dubbo-rpc/dududubborpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-dubbo-server/dududubboserver.iml" filepath="$PROJECT_DIR$/dudu-dubbo-server/dududubboserver.iml" />
+    </modules>
+  </component>
+</project>
