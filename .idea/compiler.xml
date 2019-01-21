@@ -28,6 +28,8 @@
       <module name="dudu-web" target="1.8" />
       <module name="dududubborpc" target="1.5" />
       <module name="dududubboserver" target="1.7" />
+      <module name="duduspringBoot" target="1.5" />
+      <module name="duduwebSpringboot" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

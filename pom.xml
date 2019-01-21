@@ -13,13 +13,18 @@
         <module>dudu-web</module>
         <module>dudu-pojo</module>
         <module>dudu-service</module>
-        <module>dudu-serviceImpl</module>
         <module>dudu-dao</module>
         <module>dudu-config</module>
         <module>dudu-core</module>
         <module>dudu-dubbo-rpc</module>
         <module>dudu-dubbo-server</module>
+        <module>dudu-springBoot</module>
     </modules>
 
-
+    <!-- add spring boot parent dependency -->
+    <!--<parent>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-starter-parent</artifactId>-->
+        <!--<version>1.5.6.RELEASE</version>-->
+    <!--</parent>-->
 </project>

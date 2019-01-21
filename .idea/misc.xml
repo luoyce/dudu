@@ -10,6 +10,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/dudu-springBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/dudu-webSpringboot/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectResources">
     <resource url="http://code.alibabatech.com/schema/dubbo/dubbo.xsd" location="$PROJECT_DIR$/../../xsd/dubbo.xsd" />
