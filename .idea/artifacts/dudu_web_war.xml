@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dudu-web:war">
+    <output-path>$PROJECT_DIR$/dudu-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dudu-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="dudu-web.war">
+      <element id="artifact" artifact-name="dudu-web:war exploded" />
+    </root>
+  </artifact>
+</component>
