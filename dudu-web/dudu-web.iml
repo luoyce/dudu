@@ -84,5 +84,6 @@
     <orderEntry type="module" module-name="dudu-core" />
     <orderEntry type="module" module-name="dudu-service" />
     <orderEntry type="module" module-name="dudu-dao" />
+    <orderEntry type="module" module-name="dududubborpc" />
   </component>
 </module>

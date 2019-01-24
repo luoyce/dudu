@@ -14,8 +14,33 @@
     <bean id="logBeanPostProcessor" class="com.vincent.duduCore.common.LogBeanPostProcessor" />
 
     <import resource="classpath:spring-mybatis.xml"/>
+    <import resource="classpath:dubbo-*.xml"/>
 
     <context:component-scan base-package="com.vincent">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
     </context:component-scan>
+
+    <!--<mvc:annotation-driven >-->
+        <!--&lt;!&ndash; 消息转换器 &ndash;&gt;-->
+        <!--<mvc:message-converters register-defaults="true">-->
+            <!--<bean class="org.springframework.http.converter.StringHttpMessageConverter">-->
+                <!--<property name="supportedMediaTypes" value="text/html;charset=UTF-8"/>-->
+            <!--</bean>-->
+        <!--</mvc:message-converters>-->
+    <!--</mvc:annotation-driven>-->
+
+    <!-- 中文乱码解决 -->
+    <bean class=" org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" >
+        <property name="messageConverters">
+            <list>
+                <bean class = "org.springframework.http.converter.StringHttpMessageConverter">
+                    <property name = "supportedMediaTypes">
+                        <list>
+                            <value>text/plain;charset=UTF-8</value>
+                        </list>
+                    </property>
+                </bean>
+            </list>
+        </property>
+    </bean>
 </beans>

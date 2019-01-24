@@ -77,6 +77,9 @@
           <element id="archive" name="dudu-dao-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dudu-dao" />
           </element>
+          <element id="archive" name="dudu-dubbo-rpc-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="dududubborpc" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">
