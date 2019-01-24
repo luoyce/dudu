@@ -12,6 +12,7 @@
         <module name="dudu-dao" />
         <module name="dudu-pojo" />
         <module name="dudu-service" />
+        <module name="dudu-springboot" />
         <module name="dudu-web" />
         <module name="dududubborpc" />
         <module name="dududubboserver" />
@@ -25,11 +26,17 @@
       <module name="dudu-dao" target="1.5" />
       <module name="dudu-pojo" target="1.5" />
       <module name="dudu-service" target="1.5" />
+      <module name="dudu-springboot" target="1.8" />
       <module name="dudu-web" target="1.8" />
       <module name="dududubborpc" target="1.5" />
       <module name="dududubboserver" target="1.7" />
       <module name="duduspringBoot" target="1.5" />
       <module name="duduwebSpringboot" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dudu-springboot" options="-parameters" />
+    </option>
   </component>
 </project>

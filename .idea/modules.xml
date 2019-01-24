@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/dudu-dao/dudu-dao.iml" filepath="$PROJECT_DIR$/dudu-dao/dudu-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-pojo/dudu-pojo.iml" filepath="$PROJECT_DIR$/dudu-pojo/dudu-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-service/dudu-service.iml" filepath="$PROJECT_DIR$/dudu-service/dudu-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-springboot/dudu-springboot.iml" filepath="$PROJECT_DIR$/dudu-springboot/dudu-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-web/dudu-web.iml" filepath="$PROJECT_DIR$/dudu-web/dudu-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-dubbo-rpc/dududubborpc.iml" filepath="$PROJECT_DIR$/dudu-dubbo-rpc/dududubborpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-dubbo-server/dududubboserver.iml" filepath="$PROJECT_DIR$/dudu-dubbo-server/dududubboserver.iml" />
