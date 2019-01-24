@@ -23,6 +23,6 @@ public class HomeController {
 //        }catch (Exception ex)
 //        {}
 
-        return "Hello";
+        return "index";
     }
 }

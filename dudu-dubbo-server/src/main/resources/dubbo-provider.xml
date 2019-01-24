@@ -14,7 +14,7 @@ http://code.alibabatech.com/schema/dubbo ">
     <dubbo:application name="demo-provider"/>
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
     <dubbo:protocol name="dubbo" port="20880"/>
-    <!--<dubbo:service interface="com.vincent.duduDubboRPC.UserRPCService" ref="userRPCService"/>-->
-    <!--<bean id="userRPCService" class="com.vincent.duduService.impl.UserServiceImpl"/>-->
+    <dubbo:service interface="com.vincent.duduDubboRPC.UserRPCService" ref="userRPCService"/>
+    <bean id="userRPCService" class="com.vincent.duduService.impl.UserServiceImpl"/>
 
 </beans>

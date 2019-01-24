@@ -14,7 +14,7 @@
     <bean id="logBeanPostProcessor" class="com.vincent.duduCore.common.LogBeanPostProcessor" />
 
     <import resource="classpath:spring-mybatis.xml"/>
-    <import resource="classpath:dubbo-*.xml"/>
+    <!--<import resource="classpath:dubbo-*.xml"/>-->
 
     <context:component-scan base-package="com.vincent">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
