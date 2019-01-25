@@ -6,7 +6,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                         http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
                         http://www.springframework.org/schema/context
-                        http://www.springframework.org/schema/context/spring-context-4.0.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+                        http://www.springframework.org/schema/context/spring-context-4.0.xsd
+                        http://www.springframework.org/schema/mvc
+                        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <bean id="user123" class="com.vincent.duduPojo.User" >
         <property name="name" value="HelloKitty" />
@@ -14,7 +16,7 @@
     <bean id="logBeanPostProcessor" class="com.vincent.duduCore.common.LogBeanPostProcessor" />
 
     <import resource="classpath:spring-mybatis.xml"/>
-    <!--<import resource="classpath:dubbo-*.xml"/>-->
+    <import resource="classpath:dubbo-*.xml"/>
 
     <context:component-scan base-package="com.vincent">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />

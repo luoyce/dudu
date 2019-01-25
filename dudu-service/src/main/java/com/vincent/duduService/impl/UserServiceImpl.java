@@ -18,14 +18,17 @@ public class UserServiceImpl implements UserRPCService,UserService {
 
     public List<User> getAll(){
         return  userDao.getAll();
+        //return  null;
     }
 
     public void add(User user){
-         userDao.add(user);
+
+        userDao.add(user);
     }
 
     public void update(User user){
-         userDao.update(user);
+         
+        userDao.update(user);
     }
 
     public void delete(String code){
