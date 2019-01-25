@@ -1,6 +1,6 @@
 package com.vincent.duduDao.dao;
 
-import com.vincent.duduPojo.User;
+import com.vincent.duduEntity.User;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;

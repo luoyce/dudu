@@ -1,4 +1,4 @@
-package com.vincent.duduPojo;
+package com.vincent.duduEntity;
 
 import java.io.Serializable;
 

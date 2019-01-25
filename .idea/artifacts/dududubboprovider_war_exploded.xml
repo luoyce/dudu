@@ -1,46 +1,36 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="dudu-web:war exploded">
-    <output-path>$PROJECT_DIR$/dudu-web/target/dudu-web</output-path>
+  <artifact type="exploded-war" name="dududubboprovider:war exploded">
+    <output-path>$PROJECT_DIR$/dudu-dubbo-provider/target/dudu-dubbo-server</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>dudu-web</module>
+        <module>dududubboprovider</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="dudu-web" />
+          <element id="module-output" name="dududubboprovider" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.21" />
-          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.2.2" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.3" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.3.0" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.0" />
-          <element id="library" level="project" name="Maven: tk.mybatis:mapper:4.0.4" />
-          <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
-          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.2.1" />
-          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
-          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
-          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.2" />
-          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
-          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.12" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.12" />
           <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" />
@@ -56,23 +46,36 @@
           <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
           <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
+          <element id="library" level="project" name="Maven: io.netty:netty-all:4.1.30.Final" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.23.1-GA" />
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.5" />
-          <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
           <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.3.0" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.0" />
+          <element id="library" level="project" name="Maven: tk.mybatis:mapper:4.0.4" />
+          <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.2.1" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.4" />
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
           <element id="archive" name="dudu-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dudu" />
           </element>
-          <element id="archive" name="dudu-entity-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="duduentity" />
-          </element>
+          <element id="library" level="project" name="Maven: com.vincent:dudu-pojo:1.0-SNAPSHOT" />
           <element id="archive" name="dudu-core-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dudu-core" />
           </element>
           <element id="archive" name="dudu-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dudu-service" />
+          </element>
+          <element id="archive" name="dudu-entity-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="duduentity" />
           </element>
           <element id="archive" name="dudu-dao-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dudu-dao" />
@@ -83,9 +86,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/dudu-web/target/dudu-web/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/dudu-dubbo-provider/target/dudu-dubbo-server/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="dudu-web/web/Web" />
+      <element id="javaee-facet-resources" facet="dududubboprovider/web/Web" />
     </root>
   </artifact>
 </component>

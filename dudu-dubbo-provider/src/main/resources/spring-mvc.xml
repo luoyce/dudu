@@ -12,7 +12,7 @@
     <context:annotation-config/>
 
     <!-- SpringMVC容器中只注册带有@controller注解的Bean -->
-    <context:component-scan base-package="com.vincent.duduDubboServer.controller" use-default-filters="false">
+    <context:component-scan base-package="com.vincent.duduDubboProvider.controller" use-default-filters="false">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
     </context:component-scan>
 

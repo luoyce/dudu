@@ -1,8 +1,7 @@
 package com.vincent.duduWeb.controller;
 
-import com.vincent.duduPojo.User;
 import com.vincent.duduDubboRPC.UserRPCService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.vincent.duduEntity.User;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

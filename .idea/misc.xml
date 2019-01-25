@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/dudu-dubbo-provider" />
     <file type="web" url="file://$PROJECT_DIR$/dudu-dubbo-server" />
     <file type="web" url="file://$PROJECT_DIR$/dudu-web" />
   </component>
@@ -12,13 +13,15 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/dudu-dubbo-server/pom.xml" />
+        <option value="$PROJECT_DIR$/dudu-pojo/pom.xml" />
         <option value="$PROJECT_DIR$/dudu-springBoot/pom.xml" />
         <option value="$PROJECT_DIR$/dudu-webSpringboot/pom.xml" />
       </set>
     </option>
   </component>
   <component name="ProjectResources">
-    <resource url="http://code.alibabatech.com/schema/dubbo/dubbo.xsd" location="$PROJECT_DIR$/../../xsddubbo.xsd" />
+    <resource url="http://code.alibabatech.com/schema/dubbo/dubbo.xsd" location="E:/xsddubbo.xsd" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />

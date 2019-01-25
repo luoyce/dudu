@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dudu-pojo</artifactId>
+    <artifactId>dudu-entity</artifactId>
 
 
 </project>

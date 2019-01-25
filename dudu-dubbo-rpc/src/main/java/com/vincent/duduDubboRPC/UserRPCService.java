@@ -1,6 +1,6 @@
 package com.vincent.duduDubboRPC;
 
-import com.vincent.duduPojo.User;
+import com.vincent.duduEntity.User;
 
 import java.util.List;
 

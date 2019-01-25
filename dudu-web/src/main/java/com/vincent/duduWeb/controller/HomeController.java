@@ -2,7 +2,7 @@ package com.vincent.duduWeb.controller;
 
 import com.vincent.duduCore.annotation.ControllerException;
 import com.vincent.duduCore.interceptor.ErrorInterceptor;
-import com.vincent.duduPojo.User;
+import com.vincent.duduEntity.User;
 import com.vincent.duduService.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

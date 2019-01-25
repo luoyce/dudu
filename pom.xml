@@ -19,6 +19,8 @@
         <module>dudu-dubbo-rpc</module>
         <module>dudu-dubbo-server</module>
         <module>dudu-springBoot</module>
+        <module>dudu-dubbo-provider</module>
+        <module>dudu-entity</module>
     </modules>
 
     <!-- add spring boot parent dependency -->

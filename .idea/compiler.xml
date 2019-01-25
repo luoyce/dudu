@@ -10,12 +10,12 @@
         <module name="dudu-config" />
         <module name="dudu-core" />
         <module name="dudu-dao" />
-        <module name="dudu-pojo" />
         <module name="dudu-service" />
         <module name="dudu-springboot" />
         <module name="dudu-web" />
+        <module name="dududubboprovider" />
         <module name="dududubborpc" />
-        <module name="dududubboserver" />
+        <module name="duduentity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,8 +28,10 @@
       <module name="dudu-service" target="1.5" />
       <module name="dudu-springboot" target="1.8" />
       <module name="dudu-web" target="1.8" />
+      <module name="dududubboprovider" target="1.7" />
       <module name="dududubborpc" target="1.5" />
       <module name="dududubboserver" target="1.7" />
+      <module name="duduentity" target="1.5" />
       <module name="duduspringBoot" target="1.5" />
       <module name="duduwebSpringboot" target="1.5" />
     </bytecodeTargetLevel>

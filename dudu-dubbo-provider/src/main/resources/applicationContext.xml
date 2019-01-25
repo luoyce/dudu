@@ -10,7 +10,7 @@
                         http://www.springframework.org/schema/mvc
                         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <bean id="user123" class="com.vincent.duduPojo.User" >
+    <bean id="user123" class="com.vincent.duduEntity.User" >
         <property name="name" value="HelloKitty" />
     </bean>
     <bean id="logBeanPostProcessor" class="com.vincent.duduCore.common.LogBeanPostProcessor" />
