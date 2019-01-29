@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/dudu-dao/dudu-dao.iml" filepath="$PROJECT_DIR$/dudu-dao/dudu-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-service/dudu-service.iml" filepath="$PROJECT_DIR$/dudu-service/dudu-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-springboot/dudu-springboot.iml" filepath="$PROJECT_DIR$/dudu-springboot/dudu-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-springcloud-eureka-provider/dudu-springcloud-eureka-provider.iml" filepath="$PROJECT_DIR$/dudu-springcloud-eureka-provider/dudu-springcloud-eureka-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-springcloud-eureka-ribbon/dudu-springcloud-eureka-ribbon.iml" filepath="$PROJECT_DIR$/dudu-springcloud-eureka-ribbon/dudu-springcloud-eureka-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-springcloud-eureka-server/dudu-springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/dudu-springcloud-eureka-server/dudu-springcloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-web/dudu-web.iml" filepath="$PROJECT_DIR$/dudu-web/dudu-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-dubbo-provider/dududubboprovider.iml" filepath="$PROJECT_DIR$/dudu-dubbo-provider/dududubboprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-dubbo-rpc/dududubborpc.iml" filepath="$PROJECT_DIR$/dudu-dubbo-rpc/dududubborpc.iml" />
