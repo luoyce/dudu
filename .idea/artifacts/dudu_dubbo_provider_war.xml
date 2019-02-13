@@ -1,14 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="dududubboprovider:war">
+  <artifact type="war" name="dudu-dubbo-provider:war">
     <output-path>$PROJECT_DIR$/dudu-dubbo-provider/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <module>dududubboprovider</module>
+        <module>dudu-dubbo-provider</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="archive" name="dudu-dubbo-server.war">
-      <element id="artifact" artifact-name="dududubboprovider:war exploded" />
+      <element id="artifact" artifact-name="dudu-dubbo-provider:war exploded" />
     </root>
   </artifact>
 </component>

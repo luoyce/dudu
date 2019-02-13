@@ -7,15 +7,12 @@
       <module fileurl="file://$PROJECT_DIR$/dudu-config/dudu-config.iml" filepath="$PROJECT_DIR$/dudu-config/dudu-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-core/dudu-core.iml" filepath="$PROJECT_DIR$/dudu-core/dudu-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-dao/dudu-dao.iml" filepath="$PROJECT_DIR$/dudu-dao/dudu-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-dubbo-provider/dudu-dubbo-provider.iml" filepath="$PROJECT_DIR$/dudu-dubbo-provider/dudu-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-dubbo-rpc/dudu-dubbo-rpc.iml" filepath="$PROJECT_DIR$/dudu-dubbo-rpc/dudu-dubbo-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dudu-entity/dudu-entity.iml" filepath="$PROJECT_DIR$/dudu-entity/dudu-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-service/dudu-service.iml" filepath="$PROJECT_DIR$/dudu-service/dudu-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-springboot/dudu-springboot.iml" filepath="$PROJECT_DIR$/dudu-springboot/dudu-springboot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dudu-springcloud-eureka-provider/dudu-springcloud-eureka-provider.iml" filepath="$PROJECT_DIR$/dudu-springcloud-eureka-provider/dudu-springcloud-eureka-provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dudu-springcloud-eureka-ribbon/dudu-springcloud-eureka-ribbon.iml" filepath="$PROJECT_DIR$/dudu-springcloud-eureka-ribbon/dudu-springcloud-eureka-ribbon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dudu-springcloud-eureka-server/dudu-springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/dudu-springcloud-eureka-server/dudu-springcloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-web/dudu-web.iml" filepath="$PROJECT_DIR$/dudu-web/dudu-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dudu-dubbo-provider/dududubboprovider.iml" filepath="$PROJECT_DIR$/dudu-dubbo-provider/dududubboprovider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dudu-dubbo-rpc/dududubborpc.iml" filepath="$PROJECT_DIR$/dudu-dubbo-rpc/dududubborpc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dudu-entity/duduentity.iml" filepath="$PROJECT_DIR$/dudu-entity/duduentity.iml" />
     </modules>
   </component>
 </project>

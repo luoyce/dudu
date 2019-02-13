@@ -10,57 +10,33 @@
         <module name="dudu-config" />
         <module name="dudu-core" />
         <module name="dudu-dao" />
+        <module name="dudu-dubbo-provider" />
+        <module name="dudu-dubbo-rpc" />
+        <module name="dudu-entity" />
         <module name="dudu-service" />
         <module name="dudu-springboot" />
-        <module name="dudu-springcloud-eureka-provider" />
-        <module name="dudu-springcloud-eureka-ribbon" />
-        <module name="dudu-springcloud-eureka-server" />
         <module name="dudu-web" />
-        <module name="dududubboprovider" />
-        <module name="dududubborpc" />
-        <module name="duduentity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
-      <module name="dudu" target="1.5" />
-      <module name="dudu-common" target="1.5" />
-      <module name="dudu-config" target="1.5" />
-      <module name="dudu-core" target="1.5" />
-      <module name="dudu-dao" target="1.5" />
-      <module name="dudu-pojo" target="1.5" />
-      <module name="dudu-service" target="1.5" />
+      <module name="cechi" target="1.8" />
+      <module name="dudu" target="1.8" />
+      <module name="dudu-common" target="1.8" />
+      <module name="dudu-config" target="1.8" />
+      <module name="dudu-core" target="1.8" />
+      <module name="dudu-dao" target="1.8" />
+      <module name="dudu-dubbo-provider" target="1.8" />
+      <module name="dudu-dubbo-rpc" target="1.8" />
+      <module name="dudu-entity" target="1.8" />
+      <module name="dudu-service" target="1.8" />
       <module name="dudu-springboot" target="1.8" />
-      <module name="dudu-springcloud-eureka-client" target="1.8" />
-      <module name="dudu-springcloud-eureka-provider" target="1.8" />
-      <module name="dudu-springcloud-eureka-ribbon" target="1.8" />
-      <module name="dudu-springcloud-eureka-server" target="1.8" />
       <module name="dudu-web" target="1.8" />
-      <module name="dududubboprovider" target="1.7" />
-      <module name="dududubborpc" target="1.5" />
-      <module name="dududubboserver" target="1.7" />
-      <module name="duduentity" target="1.5" />
-      <module name="duduspringBoot" target="1.5" />
-      <module name="duduwebSpringboot" target="1.5" />
+      <module name="vivi" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
-      <module name="dudu-common" options="" />
-      <module name="dudu-config" options="" />
-      <module name="dudu-core" options="" />
-      <module name="dudu-dao" options="" />
-      <module name="dudu-service" options="-parameters" />
       <module name="dudu-springboot" options="-parameters" />
-      <module name="dudu-springcloud-eureka-client" options="-parameters" />
-      <module name="dudu-springcloud-eureka-provider" options="-parameters" />
-      <module name="dudu-springcloud-eureka-ribbon" options="-parameters" />
-      <module name="dudu-springcloud-eureka-server" options="-parameters" />
-      <module name="dudu-web" options="-parameters" />
-      <module name="dududubboprovider" options="" />
-      <module name="dududubborpc" options="" />
-      <module name="duduentity" options="" />
     </option>
   </component>
 </project>

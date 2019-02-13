@@ -11,19 +11,19 @@
     <artifactId>dudu-service</artifactId>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
     </properties>
 
     <dependencies>
-        <!--&lt;!&ndash;spring&ndash;&gt;-->
-        <!--<dependency>-->
-            <!--<groupId>org.springframework</groupId>-->
-            <!--<artifactId>spring-context</artifactId>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>org.springframework</groupId>-->
-            <!--<artifactId>spring-beans</artifactId>-->
-        <!--</dependency>-->
 
+        <dependency>
+            <groupId>com.vincent</groupId>
+            <artifactId>dudu-entity</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.vincent</groupId>
             <artifactId>dudu-dubbo-rpc</artifactId>
@@ -31,6 +31,10 @@
         <dependency>
             <groupId>com.vincent</groupId>
             <artifactId>dudu-dao</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
         </dependency>
     </dependencies>
 </project>

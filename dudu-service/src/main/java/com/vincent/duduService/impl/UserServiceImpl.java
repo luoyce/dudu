@@ -13,7 +13,7 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserRPCService,UserService {
 
-    @Autowired
+    //@Autowired
     private UserDao userDao;
 
     public List<User> getAll(){
