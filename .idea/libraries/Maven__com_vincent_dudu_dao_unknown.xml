@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.vincent:dudu-dao:unknown">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/vincent/dudu-dao/unknown/dudu-dao-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/vincent/dudu-dao/unknown/dudu-dao-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/vincent/dudu-dao/unknown/dudu-dao-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

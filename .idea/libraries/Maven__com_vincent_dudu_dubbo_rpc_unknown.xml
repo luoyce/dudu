@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.vincent:dudu-dubbo-rpc:unknown">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/vincent/dudu-dubbo-rpc/unknown/dudu-dubbo-rpc-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/vincent/dudu-dubbo-rpc/unknown/dudu-dubbo-rpc-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/vincent/dudu-dubbo-rpc/unknown/dudu-dubbo-rpc-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

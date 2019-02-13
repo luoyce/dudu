@@ -1,4 +1,4 @@
-package com.vincent.duduDubboServer.controller;
+package com.vincent.duduDubboProvider.controller;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
