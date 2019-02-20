@@ -1,9 +1,11 @@
 package com.vincent.duduWeb.controller;
 
 import com.vincent.duduCore.annotation.ControllerException;
-import com.vincent.duduCore.interceptor.ErrorInterceptor;
+//import com.vincent.duduCore.interceptor.ErrorInterceptor;
 import com.vincent.duduEntity.User;
 import com.vincent.duduService.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,26 +17,21 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.*;
 
 /*
-* @Description:  modelAndView间传值，页面间传值
+* @Description:
 * @Author: weijian.yan
 * @Date: 2019/1/6
 */
 @Controller
 @RequestMapping("/home")
 public class HomeController {
+    Logger logger = LoggerFactory.getLogger(getClass());
 
-    @Autowired
-    private UserService userService;
-
-    @ControllerException(ErrorInterceptor.class)
+//    @ControllerException(ErrorInterceptor.class)
     @RequestMapping(value = "/index", method = {RequestMethod.POST,RequestMethod.GET})
     public  ModelAndView index(){
         ModelAndView modelAndView = new ModelAndView("home/index");
 
-        List<User> list = this.userService.getAll();
-
-        modelAndView.addObject("list", list);
-        System.out.println("index");
+        logger.debug("-------------------home/index");
 
         return modelAndView;
     }
@@ -43,33 +40,6 @@ public class HomeController {
     public String paramByServletRequest(HttpServletRequest request) {
         String paramByServletRequest = request.getParameter("paramByServletRequest");
         return  "home/index";
-    }
-
-    @RequestMapping(value = "/add", method = {RequestMethod.POST,RequestMethod.GET})
-    public ModelAndView add(User user) {
-        ModelAndView modelAndView = new ModelAndView("home/index");
-
-        userService.add(user);
-
-        return modelAndView;
-    }
-
-    @RequestMapping(value = "/update", method = {RequestMethod.POST,RequestMethod.GET})
-    public ModelAndView update(User user) {
-        ModelAndView modelAndView = new ModelAndView("home/index");
-
-        userService.update(user);
-
-        return modelAndView;
-    }
-
-    @RequestMapping(value = "/delete", method = {RequestMethod.POST,RequestMethod.GET})
-    public ModelAndView delete(String code) {
-        ModelAndView modelAndView = new ModelAndView("home/index");
-
-        userService.delete(code);
-
-        return modelAndView;
     }
 
     @RequestMapping(value = "/paramByJson", method = {RequestMethod.POST,RequestMethod.GET})
@@ -90,6 +60,4 @@ public class HomeController {
 
         return modelAndView;
     }
-
-    //RedirectView view = new RedirectView("regirst.do");  视图重定向
 }

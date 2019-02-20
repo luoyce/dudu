@@ -36,7 +36,16 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dudu-common" options="-parameters" />
+      <module name="dudu-config" options="-parameters" />
+      <module name="dudu-core" options="-parameters" />
+      <module name="dudu-dao" options="-parameters" />
+      <module name="dudu-dubbo-provider" options="-parameters" />
+      <module name="dudu-dubbo-rpc" options="-parameters" />
+      <module name="dudu-entity" options="-parameters" />
+      <module name="dudu-service" options="-parameters" />
       <module name="dudu-springboot" options="-parameters" />
+      <module name="dudu-web" options="-parameters" />
     </option>
   </component>
 </project>

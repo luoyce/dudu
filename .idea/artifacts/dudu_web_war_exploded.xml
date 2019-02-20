@@ -40,12 +40,12 @@
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.2.2" />
-          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.3" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.6" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.29" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.22" />
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.5" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.23.1-GA" />
           <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.12" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.12" />
           <element id="library" level="project" name="Maven: org.apache.curator:curator-framework:4.0.1" />
           <element id="library" level="project" name="Maven: org.apache.curator:curator-client:4.0.1" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:20.0" />
@@ -59,9 +59,15 @@
           <element id="archive" name="dudu-entity-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dudu-entity" />
           </element>
+          <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.0.14.Final" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.4.0" />
           <element id="archive" name="dudu-core-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dudu-core" />
           </element>
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.11" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.11" />
           <element id="archive" name="dudu-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dudu-service" />
           </element>

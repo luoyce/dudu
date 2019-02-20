@@ -7,46 +7,30 @@
 <%@ page isELIgnored="false"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<body>
-<h2>Hello World!</h2>
-<a href="/home/paramByServletRequest?paramByServletRequest=123">paramByServletRequest</a><br/>
+<head>
+    <jsp:include page="/WEB-INF/views/share/header.jsp"></jsp:include>
+    
+    <title>Hello World!</title>
+</head>
+<body class="nav-md">
+<div class="container body">
+    <div class="main_container">
+        <jsp:include page="/WEB-INF/views/share/navigation.jsp"></jsp:include>
 
-<h5>新增数据</h5>
-<table>
-    <form action="/home/add">
-    <tr>
-        <td>code</td>
-        <td><input name="code"/></td>
-    </tr>
-    <tr>
-        <td>name</td>
-        <td><input name="name"/></td>
-    </tr>
-    <tr>
-        <td>age</td>
-        <td><input name="age"/></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><input type="submit" value="add"></td>
-    </tr>
-    </form>
-</table>
+        <!-- page content -->
+        <div class="right_col" role="main">
+            <form method="POST" action="/file/upload" enctype="multipart/form-data">
+                File to upload: <input type="file" name="file">
+                <input type="submit" value="Upload"> Press here to upload the file!
+            </form>
+        </div>
+        <!-- /page content -->
 
-<table>
-    <tr>
-        <td>code</td>
-        <td>name</td>
-        <td>age</td>
-    </tr>
-<c:forEach var="x" items="${list}">
-    <tr>
-        <td><a href="/home/delete?code=${x.code}"> ${x.code}</a></td>
-        <td>${x.name }</td>
-        <td>${x.age }</td>
-    </tr>
-</c:forEach>
-</table>
-
+        <!-- footer content -->
+        <jsp:include page="/WEB-INF/views/share/footer.jsp"></jsp:include>
+        <!-- /footer content -->
+    </div>
+</div>
+<jsp:include page="/WEB-INF/views/share/script.jsp"></jsp:include>
 </body>
 </html>
