@@ -16,22 +16,22 @@ import java.lang.reflect.Method;
 @Component
 @Aspect
 public class AopSimple {
-    @Pointcut("execution(* com.vincent.duduService.UserService.getAll(..))")
-    public void loginAspect(){}
+    @Pointcut(value = "@annotation(com.vincent.duduCore.annotation.AnnotationSimple)")
+    public void aopSimple(){}
 
-    @Before("loginAspect()")
+    @Before("aopSimple()")
     public void beforeLogin(JoinPoint joinPoint){
     // 1 第一步执行
         System.out.println("beforeLogin action---");
     }
 
-    @After("loginAspect()")
+    @After("aopSimple()")
     public void afterLogin(JoinPoint joinPoint){
         //4 第四步执行
         System.out.println("afterLogin action---");
     }
 
-    @Around("loginAspect()")
+    @Around("aopSimple()")
     public Object aroundLogin(ProceedingJoinPoint joinPoint)
             throws java.lang.Throwable {
         //2 第二步执行
@@ -45,7 +45,7 @@ public class AopSimple {
         return rvt;
     }
 
-    @AfterReturning(returning="rvt", pointcut="loginAspect()")
+    @AfterReturning(returning="rvt", pointcut="aopSimple()")
     public void afterReturning(Object rvt){
         //3  第三步执行
         System.out.println("获取登陆结果返回值 :" + rvt);
@@ -53,7 +53,7 @@ public class AopSimple {
     }
 
     //   如果执行切点方法被抛出异常，则1，2，4步执行后执行@AfterThrowing增强处理。 @AfterReturning将不再执行
-    @AfterThrowing(pointcut="loginAspect()",throwing="ex")
+    @AfterThrowing(pointcut="aopSimple()",throwing="ex")
     public void afterThrowingSayHello(Exception ex){
         System.out.println("After Throwing : "+ex.getMessage());
     }
