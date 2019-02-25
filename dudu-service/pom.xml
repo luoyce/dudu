@@ -41,5 +41,9 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.vincent</groupId>
+            <artifactId>dudu-core</artifactId>
+        </dependency>
     </dependencies>
 </project>
