@@ -20,17 +20,17 @@
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.2.2" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.6" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.0.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:unknown" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:unknown" />
           <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:unknown" />
@@ -60,8 +60,8 @@
             <element id="module-output" name="dudu-core" />
           </element>
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.22" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.11" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.11" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.10" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.10" />
           <element id="archive" name="dudu-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dudu-service" />
           </element>

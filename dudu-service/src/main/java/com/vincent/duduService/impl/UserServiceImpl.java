@@ -1,6 +1,7 @@
 package com.vincent.duduService.impl;
 
 
+import com.vincent.duduCore.annotation.AnnotationSimple;
 import com.vincent.duduDao.dao.UserDao;
 import com.vincent.duduDubboRPC.UserRPCService;
 import com.vincent.duduEntity.User;
@@ -16,6 +17,7 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserDao userDao;
 
+    @AnnotationSimple
     public List<User> getAll(){
         return  userDao.getAll();
         //return  null;

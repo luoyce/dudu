@@ -66,8 +66,8 @@
           <element id="archive" name="dudu-core-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dudu-core" />
           </element>
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.11" />
-          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.11" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.10" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.10" />
           <element id="archive" name="dudu-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="dudu-service" />
           </element>
