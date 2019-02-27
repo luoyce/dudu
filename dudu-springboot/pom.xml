@@ -53,6 +53,16 @@
         </dependency>
 
         <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.10</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
@@ -64,6 +74,14 @@
         <dependency>
             <groupId>com.vincent</groupId>
             <artifactId>dudu-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.vincent</groupId>
+            <artifactId>dudu-dao</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.vincent</groupId>
+            <artifactId>dudu-config</artifactId>
         </dependency>
     </dependencies>
 
