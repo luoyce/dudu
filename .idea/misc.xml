@@ -13,6 +13,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/cechi/pom.xml" />
+        <option value="$PROJECT_DIR$/dudu-config/pom.xml" />
         <option value="$PROJECT_DIR$/vivi/pom.xml" />
       </set>
     </option>

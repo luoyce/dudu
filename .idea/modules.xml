@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dudu.iml" filepath="$PROJECT_DIR$/dudu.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-common/dudu-common.iml" filepath="$PROJECT_DIR$/dudu-common/dudu-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dudu-config/dudu-config.iml" filepath="$PROJECT_DIR$/dudu-config/dudu-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-core/dudu-core.iml" filepath="$PROJECT_DIR$/dudu-core/dudu-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-dao/dudu-dao.iml" filepath="$PROJECT_DIR$/dudu-dao/dudu-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/dudu-dubbo-provider/dudu-dubbo-provider.iml" filepath="$PROJECT_DIR$/dudu-dubbo-provider/dudu-dubbo-provider.iml" />

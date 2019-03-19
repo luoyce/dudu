@@ -32,11 +32,11 @@
     <!--</mvc:annotation-driven>-->
 
     <!-- 中文乱码解决 -->
-    <bean class=" org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" >
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" >
         <property name="messageConverters">
             <list>
-                <bean class = "org.springframework.http.converter.StringHttpMessageConverter">
-                    <property name = "supportedMediaTypes">
+                <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                    <property name="supportedMediaTypes">
                         <list>
                             <value>text/plain;charset=UTF-8</value>
                         </list>

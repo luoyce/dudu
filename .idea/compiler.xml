@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dudu-common" />
-        <module name="dudu-config" />
         <module name="dudu-core" />
         <module name="dudu-dao" />
         <module name="dudu-dubbo-provider" />

@@ -40,10 +40,25 @@
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
         </dependency>
+        <dependency>
+            <groupId>commons-dbutils</groupId>
+            <artifactId>commons-dbutils</artifactId>
+            <version>1.7</version>
+        </dependency>
+
 
         <dependency>
             <groupId>com.vincent</groupId>
             <artifactId>dudu-entity</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.vincent</groupId>
+            <artifactId>dudu-core</artifactId>
         </dependency>
     </dependencies>
 </project>

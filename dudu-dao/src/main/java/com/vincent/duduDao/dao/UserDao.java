@@ -14,7 +14,7 @@ import java.util.List;
 @Mapper
 @Repository
 public interface UserDao {
-    @Select("SELECT * FROM USER")
+    @Select("SELECT * FROM [USER]")
     List<User> getAll();
 
     @Select("INSERT INTO user(code, name, age) VALUES(#{code},#{name}, #{age})")

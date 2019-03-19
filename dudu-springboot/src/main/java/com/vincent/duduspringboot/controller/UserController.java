@@ -1,6 +1,9 @@
 package com.vincent.duduspringboot.controller;
 
+import com.vincent.duduCore.result.Result;
+import com.vincent.duduCore.result.ResultGenerator;
 import com.vincent.duduEntity.User;
+import com.vincent.duduService.DataPushService;
 import com.vincent.duduService.UserService;
 
 import io.swagger.annotations.ApiImplicitParam;
@@ -24,14 +27,18 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private DataPushService dataPushService;
+
     @ApiOperation(value="获取用户列表", notes="")
     @RequestMapping(value = "/userList", method = {RequestMethod.POST,RequestMethod.GET})
-    public List<User> userList(){
+    public Result<List<User>> userList(){
         ModelAndView modelAndView = new ModelAndView("user/userList");
 
+        dataPushService.push();
         List<User> list = this.userService.getAll();
 
-        return list;
+        return ResultGenerator.genSuccessResult(list);
     }
 
     @ApiOperation(value="我只是个简单的例子", notes="")
