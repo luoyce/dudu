@@ -23,12 +23,12 @@ public class DataPushServiceImpl implements DataPushService {
 
     public void push(){
         List<MultiResultSetIModel> obs1 =proDao.getCDCgetDataChange();
-        //MultiResultHandler resultHandler = new MultiResultHandler();
+        MultiResultHandler resultHandler = new MultiResultHandler();
 
-//        proDao.getCDCgetDataChange2(resultHandler);
-//        List<MultiResultSetIModel> obs = resultHandler.getObs();
+        proDao.getCDCgetDataChange2(resultHandler);
+        List<MultiResultSetIModel> obs = resultHandler.getObs();
 
-//        JSONArray j = null;
+        JSONArray j = null;
 //        for (MultiResultSetIModel map: obs1) {
 //            if (map.getDataType() == 1){
 //                //return (List<User>)map.getData();

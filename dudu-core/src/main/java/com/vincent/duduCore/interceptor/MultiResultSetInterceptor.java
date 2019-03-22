@@ -22,7 +22,7 @@ import java.util.*;
  * @author: weijian.yan
  * @create: 2019-03-16 09:49
  **/
-@Component
+//@Component
 @Intercepts({@Signature(type = ResultSetHandler.class, method = "handleResultSets", args = {Statement.class})})
 public class MultiResultSetInterceptor implements Interceptor {
     public Object intercept(Invocation invocation) throws Throwable {
@@ -46,8 +46,9 @@ public class MultiResultSetInterceptor implements Interceptor {
         Field field = DefaultResultSetHandler.class.getDeclaredField("mappedStatement");
         field.setAccessible(true);
         MappedStatement mm = (MappedStatement)field.get(hhh);
+        String id =mm.getId();
 
-        return mm.getId().equals("com.vincent.duduDao.dao.ProDao.getCDCgetDataChange");
+        return !id.equals("com.vincent.duduDao.dao.ProDao.getCDCgetDataChange");
 
     }
 

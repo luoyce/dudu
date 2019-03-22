@@ -1,12 +1,15 @@
 package com.vincent.duduDao.dao;
 
+import com.vincent.duduCore.handler.MultiResultHandler;
 import com.vincent.duduCore.model.MultiResultSetIModel;
 import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.mapping.ResultSetType;
 import org.apache.ibatis.mapping.StatementType;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @description: 存储过程
@@ -21,9 +24,9 @@ public interface ProDao {
     @Options(statementType= StatementType.CALLABLE)
     List<MultiResultSetIModel> getCDCgetDataChange();
 
-//    @ResultType(value=Map.class)
-//    @Results(value={})
-//    @Select({ "EXEC SP_CDC_GET_DATA_CHANGE" })
-//    @Options(statementType= StatementType.CALLABLE)
-//    public void getCDCgetDataChange2(MultiResultHandler resultHandler);
+    @ResultType(value= Map.class)
+    @Result()
+    @Select({ "EXEC SP_CDC_GET_DATA_CHANGE" })
+    @Options(statementType= StatementType.CALLABLE)
+    void getCDCgetDataChange2(MultiResultHandler resultHandler);
 }
